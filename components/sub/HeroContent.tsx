@@ -47,15 +47,36 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Sou Desenvolvedor Full Stack com 3 anos de experiecia em Website,
-          Mobile e Desenvolvimento de Software.
+          Mobile e Desenvolvimento de Software. 
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Saiba Mais!
-        </motion.a>
       </div>
+
+      <a href="https://github.com/wesleyMirand" target="_blank" rel="noopener noreferrer" className="button-link">
+  <motion.div
+    variants={slideInFromLeft(1)}
+    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+  >
+    GitHub
+  </motion.div>
+</a>
+
+<a href="https://www.linkedin.com/in/wesley-miranda-3962702b8/" target="_blank" rel="noopener noreferrer" className="button-link">
+  <motion.div
+    variants={slideInFromLeft(1)}
+    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+  >
+    LinkedIn
+  </motion.div>
+</a>
+
+<a href="https://wa.me/11913112441" target="_blank" rel="noopener noreferrer" className="button-link">
+  <motion.div
+    variants={slideInFromLeft(1)}
+    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+  >
+    WhatsApp
+  </motion.div>
+</a>
 
       <motion.div
         variants={slideInFromRight(0.8)}

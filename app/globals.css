@@ -69,3 +69,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+.button-link {
+  margin-bottom: 20px; /* Adiciona um espaçamento abaixo dos botões */
+  display: block; /* Faz com que os botões se comportem como blocos para aplicar margem corretamente */
+}
+
+.button-link:not(:last-child) {
+  margin-right: 20px; /* Adiciona um espaçamento entre os botões, exceto o último */
+}
