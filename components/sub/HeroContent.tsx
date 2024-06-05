@@ -36,7 +36,7 @@ const HeroContent = () => {
             Unindo
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              design e desenvolvimento{" "}
+              design e{" "} iA{" "}
             </span>
             em  realidade digital
           </span>
