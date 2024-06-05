@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio 
+            Fullstack Developer Portfolio
           </h1>
         </motion.div>
 
@@ -47,11 +47,9 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Sou Desenvolvedor Full Stack com 3 anos de experiecia em Website,
-          Mobile e Desenvolvimento de Software. 
+          Mobile e Desenvolvimento de Software.
         </motion.p>
-      </div>
-
-      <a href="https://github.com/wesleyMirand" target="_blank" rel="noopener noreferrer" className="button-link">
+        <a href="https://github.com/wesleyMirand" target="_blank" rel="noopener noreferrer" className="button-link">
   <motion.div
     variants={slideInFromLeft(1)}
     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
@@ -78,15 +76,17 @@ const HeroContent = () => {
   </motion.div>
 </a>
 
+      </div>
+
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/wesley.jpg"
+          src="/mainIconsdark.svg"
           alt="work icons"
-          height={400}
-          width={400}
+          height={650}
+          width={650}
         />
       </motion.div>
     </motion.div>
