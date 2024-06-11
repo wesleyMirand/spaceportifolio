@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Sou Desenvolvedor Full Stack com 3 anos de experiecia em Website,
+          Sou Desenvolvedor Full Stack com 3 anos de experiencia em Website,
           Mobile e Desenvolvimento de Software.
         </motion.p>
         <a href="https://github.com/wesleyMirand" target="_blank" rel="noopener noreferrer" className="button-link">
